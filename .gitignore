@@ -1,8 +1,8 @@
 # Ignore docs files
 /_gh_pages/
 /site/.jekyll-metadata
-/site/docs/**/dist/
-/site/pages/assets/css/
+/site/pages/**/dist/
+/site/pages/assets/css/docs.min.css
 
 # Ignore ruby/bundler files
 /.bundle/
@@ -42,3 +42,6 @@ Thumbs.db
 # Folders to ignore
 /js/coverage/
 /node_modules/
+
+/site/pages/assets/css/docs.min.css
+/site/pages/assets/css/docs.min.css.map
