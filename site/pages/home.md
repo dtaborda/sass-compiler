@@ -53,20 +53,38 @@ title: Home
 </section><!-- /.section -->
 
 <!-- Categories -->
-<section class="section">
+<section class="section product-section product-categories" aria-label="Product Categories">
   <div class="container">
     <div class="row">
       <div class="col">
-        <img class="img-fluid" src="/pages/assets/img/product-catergory001.jpg" alt="">
-      </div><!-- /.col -->
-      <div class="col">
-        <img class="img-fluid" src="/pages/assets/img/product-catergory002.jpg" alt="">
-      </div><!-- /.col -->
-      <div class="col">
-        <img class="img-fluid" src="/pages/assets/img/product-catergory003.jpg" alt="">
-      </div><!-- /.col -->
-      <div class="col">
-        <img class="img-fluid" src="/pages/assets/img/product-catergory004.jpg" alt="">
+        <div class="woocommerce">
+          <ul class="products">
+            <li class="product-category product">
+              <a href="#">
+                <img src="/pages/assets/img/product-category001.jpg" alt="">
+                <h2>Classic</h2>
+              </a>
+            </li>
+            <li class="product-category product">
+              <a href="#">
+                <img src="/pages/assets/img/product-category002.jpg" alt="">
+                <h2>Lauwarm</h2>
+              </a>
+            </li>
+            <li class="product-category product">
+              <a href="#">
+                <img src="/pages/assets/img/product-category003.jpg" alt="">
+                <h2>Celebrity</h2>
+              </a>
+            </li>
+            <li class="product-category product">
+              <a href="#">
+                <img src="/pages/assets/img/product-category004.jpg" alt="">
+                <h2>Active</h2>
+              </a>
+            </li>
+          </ul><!-- /.products -->
+        </div><!-- /.woocommerce -->
       </div><!-- /.col -->
     </div><!-- /.row -->
   </div><!-- /.container -->
