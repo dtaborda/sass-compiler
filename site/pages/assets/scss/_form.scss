@@ -1,0 +1,33 @@
+.form {
+  &-container {
+    background-color: #f6f4f3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @media (min-width: 768px) {
+      .container {
+        max-width: 740px;
+      }
+    }
+
+    .form-control {
+      border: 1px solid #FFF;
+      border-radius: 0;
+    }
+
+    .btn {
+      border-radius: 0;
+    }
+
+    .btn-primary {
+      background-color: #101010;
+      border-color: #101010;
+    }
+  }
+
+  &-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+}
