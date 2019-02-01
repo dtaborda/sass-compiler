@@ -1,0 +1,80 @@
+.factory-visit {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  &-img {
+    &--top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      .first-box {
+        width: 170px;
+        height: 250px;
+        background-image: url(/pages/assets/img/fabrikbesuche001.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      .second-box {
+        width: 370px;
+        height: 250px;
+        margin-left: 30px;
+        background-image: url(/pages/assets/img/fabrikbesuche002.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &--center {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      .first-box {
+        width: 170px;
+        height: 250px;
+        background-image: url(/pages/assets/img/fabrikbesuche003.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      .second-box {
+        width: 170px;
+        height: 250px;
+        margin-left: 30px;
+        background-image: url(/pages/assets/img/fabrikbesuche004.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      .third-box {
+        width: 170px;
+        height: 250px;
+        margin-left: 30px;
+        background-image: url(/pages/assets/img/fabrikbesuche005.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &--bottom {
+      display: flex;
+      justify-content: space-between;
+      .first-box {
+        width: 370px;
+        height: 250px;
+        background-image: url(/pages/assets/img/fabrikbesuche006.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      .second-box {
+        width: 170px;
+        height: 250px;
+        margin-left: 30px;
+        background-image: url(/pages/assets/img/fabrikbesuche007.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
