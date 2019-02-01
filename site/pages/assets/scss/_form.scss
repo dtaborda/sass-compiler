@@ -10,8 +10,20 @@
     }
 
     .form-control {
-      border: 1px solid #FFF;
       border-radius: 0;
+      padding: 16px 14px;
+      background-color: #FFF;
+      outline: 0;
+      border: 0;
+      box-shadow: none;
+      font-family: Roboto;
+      font-size: 13px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #737373;
     }
 
     .btn {
