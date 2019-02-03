@@ -3,8 +3,11 @@
 //
 
 .site-footer {
-  padding-top: 60px;
   border-top: 1px solid #E2DDD9;
+  background-color: unset;
+  color: unset;
+  padding: unset;
+  padding-top: 60px;
 
   .footer-widget {
     margin-bottom: 30px;
@@ -23,7 +26,15 @@
 
   .nav-link {
     padding: 0 0 1rem 0;
-    color: #404040;
+    opacity: 0.8;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    color: #101010;
   }
 
   .copyrights {
@@ -44,5 +55,9 @@
 
   .copy {
     text-align: right;
+  }
+
+  .nav {
+    margin-left: 0;
   }
 }
