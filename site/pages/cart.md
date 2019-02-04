@@ -1,5 +1,5 @@
 ---
-layout: banner
+layout: without-banner
 title: Cart
 ---
 

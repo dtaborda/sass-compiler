@@ -37,7 +37,8 @@
 }
 
 .main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
-  padding: 16px 20px 15px 20px;
+  padding-top: 16px;
+  padding-bottom: 15px;
   font-family: Karla;
   font-size: 14px;
   font-weight: bold;
@@ -52,6 +53,7 @@
 .site-header {
   background-color: #e2ddd9;
   padding-top: 0;
+  margin-bottom: 0 !important;
   &-cart .cart-contents {
     padding: 16px 0 15px 0;
     font-family: Karla;

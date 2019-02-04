@@ -1,6 +1,8 @@
 ---
 layout: banner
-title: Factory visit
+title: Fabrikbesuche
+background: fabrikbesuche
+name: factory-visit
 ---
 
 {% include factory-visit.html %}

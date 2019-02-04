@@ -1,6 +1,8 @@
 ---
 layout: banner
-title: Philosophy
+title: Philosophie
+background: philosophie
+name: philosophy
 ---
 
 {% include philosophie.html %}

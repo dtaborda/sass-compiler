@@ -40,6 +40,10 @@
   letter-spacing: -0.2px;
   color: #101010;
   white-space: pre-line;
+
+  &--centered {
+    text-align: center;
+  }
 }
 
 .list-items {
