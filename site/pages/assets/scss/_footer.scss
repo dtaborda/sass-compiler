@@ -49,15 +49,24 @@
     border-top: 1px solid #E2DDD9;
   }
 
-  .address {
-    text-align: center;
-  }
-
-  .copy {
-    text-align: right;
-  }
-
   .nav {
     margin-left: 0;
+  }
+
+
+
+  .site-footer-brand {
+    margin-bottom: 30px;
+  }
+
+  @include media-breakpoint-up(sm) {
+    .footer-widget-subscribe,
+    .address {
+      text-align: center;
+    }
+
+    .copy {
+      text-align: right;
+    }
   }
 }
