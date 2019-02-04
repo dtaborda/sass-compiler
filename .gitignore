@@ -4,6 +4,11 @@
 /site/pages/dist/**/
 /site/pages/**/dist/
 /site/pages/assets/css/docs.min.css
+/site/pages/assets/js/docs.min.js
+/site/pages/dist/css/bootstrap-grid.min.css.map
+/site/pages/dist/css/bootstrap-reboot.min.css.map
+/site/pages/dist/css/bootstrap.min.css
+/site/pages/dist/css/bootstrap.min.css.map
 
 # Ignore ruby/bundler files
 /.bundle/
