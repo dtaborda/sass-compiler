@@ -1,14 +1,16 @@
-<div class="banner-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pages/assets/img/hero-{{page.background}}.jpg);">
-  <div class="col-full">
-    <ol class="banner-breadcrumb">
-      <li class="banner-breadcrumb-item banner-breadcrumb-item-home">
-        <a href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Home');" rel="home">Home</a>
-      </li>
-      <li class="banner-breadcrumb-item banner-breadcrumb-item-arrow-right"></li>
-      <li class="banner-breadcrumb-item">{{page.title}}</li>
-    </ol>
-  </div>
-  <div class="banner-container">
-    <h1 class="banner-title">{{page.title}}</h1>
-  </div>
-</div>
+<section class="banner-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pages/assets/img/hero-{{page.background}}.jpg);">
+  <div class="container">
+    <div class="col-sm">
+      <ol class="banner-breadcrumb">
+        <li class="banner-breadcrumb-item banner-breadcrumb-item-home">
+          <a href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Home');" rel="home">Home</a>
+        </li>
+        <li class="banner-breadcrumb-item banner-breadcrumb-item-arrow-right"></li>
+        <li class="banner-breadcrumb-item">{{page.title}}</li>
+      </ol>
+    </div><!-- /.col-sm -->
+    <div class="banner-container">
+      <h1 class="banner-title">{{page.title}}</h1>
+    </div>
+  </div><!-- /.container -->
+</section><!-- /.banner-image -->
