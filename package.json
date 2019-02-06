@@ -78,7 +78,6 @@
     "dist": "npm-run-all --parallel css js",
     "test": "npm-run-all lint dist js-test docs-compile docs-lint bundlesize",
     "watch": "npm-run-all --parallel watch-*",
-    "watch-css-main": "nodemon --watch scss/ --ext scss --exec \"npm run css-main\"",
     "watch-css-pages": "nodemon --watch \"site/pages/assets/scss/\" --ext scss --exec \"npm run css-docs\"",
     "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm run js-compile\"",
     "watch-js-docs": "nodemon --watch \"site/pages/assets/js/src/\" --ext js --exec \"npm run js-docs\""

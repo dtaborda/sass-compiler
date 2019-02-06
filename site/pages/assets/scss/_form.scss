@@ -34,6 +34,51 @@
       background-color: #101010;
       border-color: #101010;
     }
+
+    .suscriber {
+      h2 {
+        font-family: Karla;
+        font-size: 34px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.21;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .title-1-border {
+        border-color: #FFF;
+      }
+      p {
+        font-family: Karla;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 0;
+        margin-top: 12px;
+      }
+      .form-control-plaintext {
+        box-shadow: none;
+        background: #FFF;
+        font-family: Karla;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        color: #303030;
+      }
+      .form-inline {
+        margin-bottom: 0;
+      }
+    }
   }
 
   &-header {
