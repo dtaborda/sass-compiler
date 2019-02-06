@@ -1,5 +1,5 @@
 .shop-container {
-  margin-top: 80px;
+  margin-top: 36px;
 }
 .product-categories {
   .container {
@@ -13,6 +13,8 @@
   padding: 0;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  position: relative;
 
   select {
     padding: 18px 14px;
@@ -30,6 +32,15 @@
     border: unset;
     border-radius: 0;
     cursor: pointer;
+    width: 247.81px;
+  }
+  &::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    padding-right: 8px;
+    position: absolute;
+    right: 14px;
   }
 }
 .woocommerce-products {
