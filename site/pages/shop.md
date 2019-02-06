@@ -3,4 +3,8 @@ layout: without-banner
 title: Shop
 ---
 
-<h1>Shop</h1>
+<section class="shop-container product-section product-categories" aria-label="Product Categories">
+  <div class="container">
+    {% include shop.html %}
+  </div>
+</section>
