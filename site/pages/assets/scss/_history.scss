@@ -1,0 +1,24 @@
+.history{
+  padding-top: 80px;
+  @media (min-width: 576px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  &-col-right {
+    @media (min-width: 576px) {
+      padding-top: 206px;
+    }
+  }
+  &-card {
+    &-image {
+      border-radius: 0;
+    }
+    &-body {
+      margin-bottom: 60px;
+      h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
