@@ -5,4 +5,4 @@ background: journal
 name: journal
 ---
 
-<h1>Journal</h1>
+{% include journal.html %}
