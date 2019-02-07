@@ -5,4 +5,4 @@ background: produktion
 name: product
 ---
 
-<h1>Product</h1>
+{% include product.html %}
