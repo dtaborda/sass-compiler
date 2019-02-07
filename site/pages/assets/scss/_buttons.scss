@@ -2,36 +2,31 @@
 //
 // Custom buttons for the docs.
 
-.btn-bd-primary {
-  font-weight: 600;
-  color: $bd-purple-bright;
-  border-color: $bd-purple-bright;
-
-  &:hover,
-  &:active {
-    color: $white;
-    background-color: $bd-purple-bright;
-    border-color: $bd-purple-bright;
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 3px rgba($bd-purple-bright, .25);
-  }
+button,
+.btn {
+  border-radius: 0;
 }
 
-.btn-bd-download {
-  font-weight: 600;
-  color: $bd-download;
-  border-color: $bd-download;
+.btn-primary {
+  padding: 18px 20px;
+  color: #FFF;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0.75;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background-color: #101010;
+  border-color: #101010;
+}
 
-  &:hover,
-  &:active {
-    color: $bd-dark;
-    background-color: $bd-download;
-    border-color: $bd-download;
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 3px rgba($bd-download, .25);
-  }
+.btn-link {
+  padding: 18px 20px;
+  color: $text-color;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0.75;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
 }

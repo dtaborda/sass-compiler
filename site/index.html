@@ -4,71 +4,60 @@ title: Home
 ---
 
 <!-- Summary -->
-<section>
-  <div class="form-container">
-    <div class="container">
-      <div class="form-header">
-        <h1 class="title-1">Schuwerk ist Handwerk!</h1>
-        <div class="title-1-border"></div>
-        <p class="paragraph paragraph--centered">Seit 1932 steht das traditionelle Familienunternehmen aus dem Berner Oberland für exklusive Qualität, Handarbeit und Swissness. Auch nach 85 Jahren wird jeder der rund 200 Arbeitsschritte der Schuhproduktion in der Manufaktur am Thunersee ausgeführt. Das von Fritz von Allmen gegründete Unternehmen, dass bereits in der 3. Generation geführt wird, ist mit Stolz, die letzte Schuhmanufaktur der Schweiz.</p>
-        <button>Get to know more</button>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="section section-light section-centered section-summary">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="section-title">Schuwerk ist Handwerk!</h2>
+        <p>Seit 1932 steht das traditionelle Familienunternehmen aus dem Berner Oberland für exklusive Qualität, Handarbeit und Swissness. Auch nach 85 Jahren wird jeder der rund 200 Arbeitsschritte der Schuhproduktion in der Manufaktur am Thunersee ausgeführt. Das von Fritz von Allmen gegründete Unternehmen, dass bereits in der 3. Generation geführt wird, ist mit Stolz, die letzte Schuhmanufaktur der Schweiz.</p>
+        <button class="btn btn-link">Get to know more</button>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section><!-- /.section-summary -->
 
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <!-- Discover -->
-      <section class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-12">
-              <h2 class="title-1">Trendingegrüsse aus Moskau</h2>
-              <div class="title-1-border"></div>
-              <p class="paragraph">Es besteht kein Zweifel daran, dass Moskau zu einer der angesagtesten Städte der Welt gehört und seit einigen Jahren auch zu den trendigsten Mode-Metropolen…</p>
-            </div><!-- /.col -->
-            <div class="col-md-4 col-6">
-              <div class="discover-more-card">
-                <img src="/pages/assets/img/discover001.jpg" alt="">
-                <button>DISCOVER MORE</button>
-              </div>
-            </div><!-- /.col -->
-            <div class="col-md-4 col-6">
-              <div class="discover-more-card">
-                <img src="/pages/assets/img/discover002.jpg" alt="">
-                <button>DISCOVER MORE</button>
-              </div>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.section -->
-    </div>
-  </div>
-</div>
-
+<!-- Discover -->
+<section class="section section-discover">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <h2 class="section-title">Trendingegrüsse aus Moskau</h2>
+        <p>Es besteht kein Zweifel daran, dass Moskau zu einer der angesagtesten Städte der Welt gehört und seit einigen Jahren auch zu den trendigsten Mode-Metropolen…</p>
+      </div><!-- /.col-md-4 -->
+      <div class="col-12 col-md-8">
+        <div class="row">
+          <div class="col">
+            <img class="section-discover-img img-fluid" src="/pages/assets/img/discover001.jpg" alt="">
+            <button class="btn-primary btn-block">Discover More</button>
+          </div><!-- /.col-md-8 -->
+          <div class="col">
+            <img class="section-discover-img img-fluid" src="/pages/assets/img/discover002.jpg" alt="">
+            <button class="btn-primary btn-block">Discover More</button>
+          </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.col-md-4 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section><!-- /.section-discover -->
 
 <!-- Membership -->
-<section class="section">
-  <div class="form-container banner-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pages/assets/img/home-member.jpg);">
-    <div class="container">
-      <div class="form-header suscriber">
-        <h2>Kandahar Member</h2>
-        <div class="title-1-border"></div>
+<section class="section section-centered section-membership" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pages/assets/img/home-member.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="section-title">Kandahar Member</h2>
         <form class="form-inline">
           <div class="form-group">
             <label for="staticEmail2" class="sr-only">Email</label>
             <input type="text" readonly class="form-control-plaintext" id="staticEmail2" placeholder="Insert your email">
-          </div>
+          </div><!-- /.form-group -->
           <button type="submit" class="btn btn-primary">Subscribe</button>
-        </form>
+        </form><!-- /.form-inline -->
         <p>Get a 10% discount on your next purchase</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section><!-- /.section -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section><!-- /.section-membership -->
 
 <!-- Categories -->
 <div class="container section">
@@ -78,4 +67,3 @@ title: Home
     </div>
   </div>
 </div>
-
